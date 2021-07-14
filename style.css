@@ -176,10 +176,17 @@ header:hover .header-right img{
 @media (max-width:600px) {
     .main-bottom{
         display: grid;
-        grid-template-columns: 466px;
+        grid-template-columns: 1fr;
         justify-content: center;
         align-items: center;
+        margin:30px 20px;
+        text-align: center;
        
+    }
+    .main-bottom-left h1{
+        font-size: 35px;
+        line-height: 40px;
+        font-weight: 500px;
     }
 }
 /* best clube section */
