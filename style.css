@@ -270,9 +270,11 @@ footer{
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   width: 486px;
+   margin: 40px auto;
 }
 footer img{
-    width: 80%;
+    width: 100%;
 }
 footer i{
     font-size: 20px;
