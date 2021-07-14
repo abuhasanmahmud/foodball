@@ -253,12 +253,16 @@ table td{
 /* table er mediya query */
 @media (max-width:600px) {
     table{
-        width: 70%;
-        margin: 70px auto;
+        width: 50%;
+        margin: 50px auto;
         text-align: center;
         border-collapse: collapse;
        box-shadow: 2px 2px 5px #00000061;
        }
+       table th , tr ,td{
+        border: 1px solid;
+        padding: 5px;
+    } 
 }
 /* footer */
 footer{
