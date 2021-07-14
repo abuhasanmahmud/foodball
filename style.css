@@ -266,19 +266,27 @@ table td{
 }
 /* footer */
 footer{
-    justify-content: center;
-    display: grid;
-    margin: 80px auto;
-    align-items: center;
-   width: 484px;
-   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
 }
 footer img{
-    width: 100%;
+    width: 80%;
 }
 footer i{
     font-size: 20px;
     margin-right: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+/* footer media query */
+@media (max-width:600px) {
+    footer img{
+        width: 70%;
+        
+    }
+    footer{
+        text-align: center;
+    }
 }
