@@ -182,15 +182,50 @@ header:hover .header-right img{
        
     }
 }
+/* best clube section */
+    .best-clube{
+        margin: 70px 0;
+        box-shadow: 2px 2px 4px red;
+        padding: 20px;
+    }
+    .best-clube h1{
+        text-align: center;
+        margin: 20px auto;
+    }
+    .clube-icon{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .clube-logo{
+      margin-right: 10px;
+    }
+    .clube-logo img{
+        width: 80%;
+    }
+
+    /* best clube media quary */
+    @media (max-width:600px) {
+        .clube-icon{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+         }
+         .clube-logo{
+            margin-bottom: 15px;
+          }
+    }
 /* table start */
 table{
  width: 85%;
  margin: 70px auto;
  text-align: center;
  border-collapse: collapse;
- background-color: #E6DEDE;
  
-
+ 
+box-shadow: 2px 2px 5px #00000061;
 }
 table caption{
     font-size: 25px;
