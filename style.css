@@ -5,18 +5,6 @@
 
 }
 
-/* -----------------
-   header start
--------------------- */
- /* header{
-    background-color: #2D25A0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding:70px 100px;
-}  */
  header{
     background-color: #2D25A0;
     display: flex;
@@ -96,7 +84,7 @@
 }
 
 /* main top start */
-main{
+ main{
     margin-top: 50px;
 
 }
@@ -123,7 +111,7 @@ main{
 }
 /* media quary  */
 /* main-top */
-@media (max-width:900px) {
+ @media (max-width:900px) {
     .main-top{
         display: grid;
         grid-template-columns:repeat(2 ,330px);
@@ -138,4 +126,8 @@ main{
         justify-content: center;
         align-items: center;
      }
+} 
+
+h1{
+    color: red;
 }
